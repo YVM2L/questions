@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Card</title>
+    <link rel="stylesheet" href="index.css" />
+ </head>
+ <body>
+    <!-- Вопрос следующий: если у меня ниже к классу контейнер уже привязан инлайном красный цвет, то почему когда в css контейнеру даю зеленый цвет он не становится обратно красным?? -->
+     <!-- тут -->
+    <div class="container" id="container" style="color: red"> работает??
+        <div class="recipe-card feature">
+            <img
+            src="cupcake.jpg"
+            alt="Red Velvet Cupcake - Photo by luisana zerpa on Unsplash"
+            />
+            <div class="recipe-content">
+                <h1>Red Velvet Cupcakes</h1>
+                <!-- и тут -->
+                <p class="container">This red velvet cupcake recipe yields soft, fluffy cupcakes with a rich chocolate flavor and a vibrant red color. Topped with a creamy and tangy cream cheese frosting, these cupcakes are perfect for any occasion and are sure to impress your guests.</p>
+                <section class="recipe-info">
+                    <ul>
+                        <li class="recipe-prep-time">
+                            <h2>Preparation Time</h2>
+                            <p>30 min</p>
+                        </li>
+                        <li>
+                            <h2>Total Time</h2>
+                            <p>40 min</p>
+                        </li>
+                        <li>
+                            <h2>Yield</h2>
+                            <p>40 min</p>
+                        </li>
+                    </ul>
+                </section>
+            </div>                            
+            <a href="#">View recipe</a>
+        </div>
+  </div>
+ </body>
+</html>
